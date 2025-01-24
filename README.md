@@ -1,4 +1,3 @@
-# e_paper_display
 # E-paper display control
 
 Eine einfache, webbasierte Software zur Anzeige von Bildern aus einem RSS-Feeds auf einem RaspberryPi und einem e-Ink-Display.
