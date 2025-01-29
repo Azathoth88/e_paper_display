@@ -56,7 +56,7 @@ python epaper_display.py
 10. 
 . Autostart installieren
 ```
-python toggle_autostart.py
+sudo python toggle_autostart.py
 ```
 
 ### Service starten / stoppen
