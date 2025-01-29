@@ -25,8 +25,7 @@ Wichtig: SSH-Zugriff aktivieren
 ```
 sudo apt update && apt upgrade
 ```
-4. SPI Interface aktivieren
- 3. Interfacing Options -> I4 SPI -> Yes Enable SPI interface
+4. SPI Interface aktivieren (3. Interfacing Options -> I4 SPI -> Yes Enable SPI interface)
 ```
 sudo raspi-config
 ```
@@ -34,9 +33,11 @@ sudo raspi-config
 ```
 sudo reboot
 ```
-7. sudo reboot
-
-
+7. Prüfen, ob firmware/config.txt korrekt beschrieben und ob dtparam=spi=on aktiviert ist
+```
+nano /boot/firmware/config.txt
+```
+![image](https://github.com/user-attachments/assets/a97e0484-e8ad-4f15-9963-ac2e0024c390)
 
 
 
