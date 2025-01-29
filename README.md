@@ -39,12 +39,13 @@ nano /boot/firmware/config.txt
 ```
 ![image](https://github.com/user-attachments/assets/a97e0484-e8ad-4f15-9963-ac2e0024c390)
 
-8. Python Bibliotheken installieren
+8. Python Bibliotheken & Flask installieren
 ```
 sudo apt-get install python3-pip
 sudo apt-get install python3-pil
 sudo apt-get install python3-numpy
 sudo apt install python3-spidev
+sudo apt-get install python3-flask
 ```
 
 9. photoframe-Verzeichnis kopieren
