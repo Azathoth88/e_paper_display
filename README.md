@@ -47,14 +47,14 @@ sudo apt-get install python3-numpy
 sudo apt install python3-spidev
 ```
 
-7. photoframe-Verzeichnis kopieren
-8. Test
+9. photoframe-Verzeichnis kopieren
+10. Test durchführen
 ```
+cd photoframe
 python epaper_display.py
 ```
-9. 
-10. 
-. Autostart installieren
+
+11. Autostart installieren
 ```
 sudo python toggle_autostart.py
 ```
