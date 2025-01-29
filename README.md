@@ -25,7 +25,20 @@ Wichtig: SSH-Zugriff aktivieren
 ```
 sudo apt update && apt upgrade
 ```
-4. Updates 
+4. SPI Interface aktivieren
+ 3. Interfacing Options -> I4 SPI -> Yes Enable SPI interface
+```
+sudo raspi-config
+```
+5. Reboot
+```
+sudo reboot
+```
+7. sudo reboot
+
+
+
+
 
 ### Service starten / stoppen
 ```
