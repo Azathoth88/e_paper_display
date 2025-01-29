@@ -58,6 +58,7 @@ python epaper_display.py
 ```
 sudo python toggle_autostart.py
 ```
+![image](https://github.com/user-attachments/assets/5dc9a641-764d-41c9-846d-d3b8a3d532e7)
 
 ### Service starten / stoppen
 ```
