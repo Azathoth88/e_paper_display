@@ -38,7 +38,8 @@ sudo reboot
 nano /boot/firmware/config.txt
 ```
 ![image](https://github.com/user-attachments/assets/a97e0484-e8ad-4f15-9963-ac2e0024c390)
-7b. Bei 13.3 Zoll Display zusätzlich config.txt ergänzen:
+
+8. Nur bei einem 13.3 Zoll Display zusätzlich config.txt ergänzen:
 ```
 sudo nano /boot/firmware/config.txt
 ```
@@ -48,7 +49,7 @@ gpio=7=op,dl
 gpio=8=op,dl
 ```
 
-8. Python Bibliotheken & Flask installieren
+9. Python Bibliotheken & Flask installieren
 ```
 sudo apt-get install python3-pip
 sudo apt-get install python3-pil
@@ -57,14 +58,14 @@ sudo apt install python3-spidev
 sudo apt-get install python3-flask
 ```
 
-9. photoframe-Verzeichnis kopieren
-10. Test durchführen
+10. photoframe-Verzeichnis kopieren
+11. Test durchführen
 ```
 cd photoframe
 python epaper_display.py
 ```
 
-11. Autostart installieren
+12. Autostart installieren
 ```
 sudo python toggle_autostart.py
 ```
