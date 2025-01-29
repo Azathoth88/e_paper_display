@@ -18,7 +18,7 @@ Eine einfache, webbasierte Software zur Anzeige von Bildern aus einem RSS-Feeds 
 
 ## Installation
 1. Raspberry Pi Imager herunterladen und installieren https://www.raspberrypi.com/software/
-2. Raspberri Pi OS auf SD-Karte schreiben.
+2. Raspberri Pi OS (Empfehlung: Raspberry Pi OS Lite (64 Bit)) auf SD-Karte schreiben.
 Wichtig: SSH-Zugriff aktivieren
 ![image](https://github.com/user-attachments/assets/a5599abd-8c44-4f04-8971-a423e5ebd253)
 3. Updates  durchführen
@@ -38,6 +38,15 @@ sudo reboot
 nano /boot/firmware/config.txt
 ```
 ![image](https://github.com/user-attachments/assets/a97e0484-e8ad-4f15-9963-ac2e0024c390)
+7b. Bei 13.3 Zoll Display zusätzlich config.txt ergänzen:
+```
+sudo nano /boot/firmware/config.txt
+```
+Am Ende der Datei ergänzen
+```
+gpio=7=op,dl
+gpio=8=op,dl
+```
 
 8. Python Bibliotheken & Flask installieren
 ```
