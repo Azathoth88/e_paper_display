@@ -38,7 +38,14 @@ sudo reboot
 nano /boot/firmware/config.txt
 ```
 ![image](https://github.com/user-attachments/assets/a97e0484-e8ad-4f15-9963-ac2e0024c390)
-
+8. Python Bibliotheken installieren
+```
+sudo apt-get update
+sudo apt-get install python3-pip
+sudo apt-get install python3-pil
+sudo apt-get install python3-numpy
+sudo pip3 install spidev
+```
 
 
 ### Service starten / stoppen
