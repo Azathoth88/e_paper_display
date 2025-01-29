@@ -21,8 +21,11 @@ Eine einfache, webbasierte Software zur Anzeige von Bildern aus einem RSS-Feeds 
 2. Raspberri Pi OS auf SD-Karte schreiben.
 Wichtig: SSH-Zugriff aktivieren
 ![image](https://github.com/user-attachments/assets/a5599abd-8c44-4f04-8971-a423e5ebd253)
-3. 
-
+3. Updates  durchführen
+```
+sudo apt update && apt upgrade
+```
+4. Updates 
 
 ### Service starten / stoppen
 ```
