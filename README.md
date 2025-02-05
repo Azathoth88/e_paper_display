@@ -76,3 +76,7 @@ sudo python toggle_autostart.py
 sudo systemctl start epaper-frame.service
 sudo systemctl stop epaper-frame.service
 ```
+### Letzte 20 Logeinträge vom Service
+```
+journalctl -u epaper-frame.service -n 20
+```
