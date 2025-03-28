@@ -51,11 +51,7 @@ gpio=8=op,dl
 
 9. Python Bibliotheken & Flask installieren
 ```
-sudo apt-get install python3-pip
-sudo apt-get install python3-pil
-sudo apt-get install python3-numpy
-sudo apt install python3-spidev
-sudo apt-get install python3-flask
+sudo apt-get install -y python3-pip python3-pil python3-numpy python3-spidev python3-flask
 ```
 
 10. photoframe-Verzeichnis kopieren
